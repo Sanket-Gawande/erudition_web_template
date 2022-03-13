@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <title>Erudition</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="/src/output.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <!-- font awasome -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen font-poppins">
+    <header class="fixed w-full bg-white">
+      <!-- menu goes here -->
+      <div
+        id="menu"
+        class="underline py-2 bg-slate-400 flex space-x-3 flex-wrap px-4 text-[10px] justify-center text-white items-center"
+      >
+        <a href="/">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#courses">Courses</a>
+        <a href="#">Live lectures</a>
+        <a href="#free">Free Contents</a>
+        <a href="#">YouTube videos</a>
+        <a href="#">Downloads</a>
+        <a href="#" class="link_menu">Quizzes</a>
+      </div>
+      <div
+        class="relative flex w-full px-8 py-2 md:px-18 xl:px-24 justify-between items-center shadow-md shadow-gray-500/10"
+      >
+        <div class="flex flex-col justify-start p-1">
+          <h4 class="text-orange-400 text-2xl capitalize">erudition</h4>
+          <p class="text-sm text-slate-400">Keep exploring</p>
+        </div>
+
+        <div>
+          <form action="" method="" autocomplete="off">
+            <input
+              type="search"
+              name="searchQuery"
+              required
+              class="m-0 h-8 px-4 w-[200px] text-sm outline-none text-slate-400 rounded-l-full -mr-2 border border-slate-400"
+            />
+            <button
+              type="submit"
+              name="submit"
+              class="w-20 text-white text-sm h-8 rounded-r-full bg-slate-400"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main class="min-h-screen w-full grid place-items-center bg-purple-50/50">
+      <!-- hero section goes here -->
+
+      <div
+        class="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center pt-20"
+      >
+        <div
+          class="max-w-2xl md:w-10/12 p-8 md:p-14 md:mt-24 text-center md:text-left"
+        >
+          <h2 class="text-5xl md:text-6xl text-slate-700 my-8 font-medium">
+            Welcome to Erudition
+          </h2>
+          <p class="text-slate-400 text-md font-extralight font-sans">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            perferendis id reprehenderit ipsum dicta beatae facere explicabo
+            pariatur fuga natus ab quasi, quia consequatur eius sunt nulla,
+            nobis distinctio ratione facilis exercitationem eligendi dolorum
+            nisi dolor veritatis. Quia, tempore totam.
+          </p>
+          <div class="flex items-center justify-center  md:justify-start space-x-4">
+            <button
+              class="rounded-full bg-orange-400 text-white py-2 px-8 mt-8 border border-orange-400"
+            >
+              Join us +
+            </button>
+            <button
+              class="rounded-full text-orange-400 py-2 px-8 mt-8 border border-orange-400"
+            >
+              Get started
+            </button>
+          </div>
+        </div>
+        <div class="md:w-10/12 md:p-8 p-4 mt-4">
+          <img
+            class="w-full object-cover h-full"
+            src="/assets/casual-life-3d-meditation-crystal.png"
+            alt="hero"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- import links -->
+    <div class="p-4 flex justify-center items-center text-center bg-slate-100">
+      <a href="#" class="w-40 h-32 text-center mx-4 block">
+        <img src="/assets/paper.svg" alt="icon" class="w-3/5 block mx-auto" />
+        <h4 class="text-slate-400">Current affairs</h4>
+      </a>
+      <a href="#" class="w-40 h-32 text-center mx-4 block">
+        <img src="/assets/edit.svg" alt="icon" class="w-3/5 block mx-auto" />
+        <h4 class="text-slate-400">Editorial</h4>
+      </a>
+    </div>
+
+    <!-- courses section  -->
+    <!-- announcement -->
+    <h3 class="py-2 text-center bg-slate-400 text-white text-[12px]">
+      New free & premium courses launching soon....
+    </h3>
+
+    <div class="w-full p-4 bg-slate-100" id="free">
+      <h3 class="text-center py-8 text-2xl text-slate-600">
+        Free study material
+      </h3>
+      <div
+        class="pb-8 text-sm flex flex-wrap max-w-4xl mx-auto justify-center space-x-4 items-center"
+      >
+        <a
+          href="#"
+          class="py-2 px-8 text-orange-500 bg-orange-400/10 mt-4 rounded-md"
+          >Session notes/PDF's
+        </a>
+        <a
+          href="#"
+          class="py-2 px-8 text-orange-500 bg-orange-400/10 mt-4 rounded-md"
+        >
+          Editorials
+        </a>
+        <a
+          href="#"
+          class="py-2 px-8 text-orange-500 bg-orange-400/10 mt-4 rounded-md"
+        >
+          Important questions
+        </a>
+        <a
+          href="#"
+          class="py-2 px-8 text-orange-500 bg-orange-400/10 mt-4 rounded-md"
+        >
+          YouTube videos
+        </a>
+      </div>
+    </div>
+    <!-- available courses -->
+    <div
+      id="courses"
+      class="h-screen px-8 bg-purple-50 border-t border-slate-100 flex flex-col justify-center"
+    >
+      <h3 class="text-center text-2xl text-slate-600">Available courses</h3>
+      <div
+        class="max-w-5xl mt-8 w-10/12 mx-auto grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2"
+      >
+        <a
+          href="/"
+          class="bg-white text-center m-4 py-4 rounded-md shadow-md shadow-slate-500/10"
+        >
+          <img src="/assets/icons/map.png" alt="geo" class="block mx-auto" />
+          Geography
+        </a>
+        <a
+          href="/"
+          class="bg-white text-center m-4 py-4 rounded-md shadow-md shadow-slate-500/10"
+        >
+          <img src="/assets/icons/bio.png" alt="geo" class="block mx-auto" />
+          Biology
+        </a>
+        <a
+          href="/"
+          class="bg-white text-center m-4 py-4 rounded-md shadow-md shadow-slate-500/10"
+        >
+          <img src="/assets/icons/chem.png" alt="geo" class="block mx-auto" />
+          Chemistry
+        </a>
+        <a
+          href="/"
+          class="bg-white text-center m-4 py-4 rounded-md shadow-md shadow-slate-500/10"
+        >
+          <img src="/assets/icons/bank.png" alt="geo" class="block mx-auto" />
+          Economy
+        </a>
+        <a
+          href="/"
+          class="bg-white text-center m-4 py-4 rounded-md shadow-md shadow-slate-500/10"
+        >
+          <img src="/assets/icons/math.png" alt="geo" class="block mx-auto" />
+          Mathematics
+        </a>
+        <a
+          href="/"
+          class="bg-white text-center m-4 py-4 rounded-md shadow-md shadow-slate-500/10"
+        >
+          Social science
+          <img src="/assets/icons/upsc.png" alt="geo" class="block mx-auto" />
+        </a>
+      </div>
+    </div>
+
+    <!-- social family counters -->
+    <div class="counter"></div>
+    <footer
+      class="sticky top-full bottom-0 w-full bg-slate-300 text-gray-700 text-center text-sm py-4 flex flex-wrap items-center justify-center space-y-4 flex-col"
+    >
+      <p>All rights are reserved to Erudition | +917030621543</p>
+      <div class="flex space-x-4 items-center">
+        <p class="flex items-center">
+          Crated by Enjr_G with
+          <span class="material-icons mx-2 text-orange-500"> favorite </span>
+        </p>
+        <a target="_blank" href="https://icons8.com"> All icons by Icons8</a>
+      </div>
+    </footer>
+    
+  </body>
+</html>
